@@ -51,7 +51,6 @@ p {
 
 /*======================HEADER======================*/
 .section {
-  /* background-color: #ffffff; */
   border-bottom: 1px solid #ececec;
 }
 
@@ -206,7 +205,6 @@ p {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
 }
 
 .hero-title {
@@ -249,13 +247,10 @@ p {
   display: none;
 }
 
-.features-section {
-  /* padding-left: 15px;
-  padding-right: 15px; */
+/* .features-section {
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid tomato; */
-}
+} */
 
 .features-list {
   width: 1200px;
@@ -301,13 +296,11 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 94px;
-  /* outline: 2px solid tomato; */
 }
 
 .work-list {
   display: flex;
   justify-content: space-between;
-  /* outline: 2px solid tomato; */
 }
 
 .img-item {
@@ -398,16 +391,6 @@ p {
 /* portfolio */
 
 /*======================OUR WORK SECTION======================*/
-
-/* .our-work {
-  display: block;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 94px;
-} */
 
 .list-of-our-works {
   display: flex;
