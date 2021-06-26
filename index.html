@@ -13,14 +13,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
-
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <!--======================HEADER==========================-->
   <header class="section">
-    <div class="container">
+    <div class="container header-container">
       <nav class="site-nav">
         <a class="logo-header link" href="./index.html">
           <span class="logo-item">Web</span>Studio
@@ -52,7 +51,7 @@
   <main>
     <!--======================HERO======================-->
     <section class="hero">
-      <div class="hero-container">
+      <div class="container hero-content">
         <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
         <button class="button" type="button">Заказать услугу</button>
       </div>
@@ -60,83 +59,95 @@
     <!-- ======================END HERO====================== -->
 
     <!-- ======================FEATURES====================== -->
-    <section class="features-section">
-      <h2 class="hidden">Особенности</h2>
-      <ul class="features-list list">
-        <li class="item">
-          <h3 class="features-title">Внимание к деталям</h3>
-          <p class="text-description">
-            Идейные соображения, а также
-            начало повседневной работы по
-            формированию позиции.
-          </p>
-        </li>
-        <li class="item">
-          <h3 class="features-title">Пунктуальность</h3>
-          <p class="text-description">
-            Задача организации, в особенности же рамки и место обучения кадров
-            влечет за собой.
-          </p>
-        </li>
-        <li class="item">
-          <h3 class="features-title">Планирование</h3>
-          <p class="text-description">
-            Равным образом консультация с широким активом в значительной
-            степени обуславливает.
-          </p>
-        </li>
-        <li class="item">
-          <h3 class="features-title">Современные технологии</h3>
-          <p class="text-description">
-            Значимость этих проблем настолько очевидна, что реализация
-            плановых заданий.
-          </p>
-        </li>
-      </ul>
+    <section class="features-content">
+      <div class="container">
+        <h2 class="hidden">Особенности</h2>
+        <ul class="features-list list">
+          <li class="item">
+            <h3 class="features-title">Внимание к деталям</h3>
+            <p class="text-description">
+              Идейные соображения, а также
+              начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="item">
+            <h3 class="features-title">Пунктуальность</h3>
+            <p class="text-description">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="item">
+            <h3 class="features-title">Планирование</h3>
+            <p class="text-description">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="item">
+            <h3 class="features-title">Современные технологии</h3>
+            <p class="text-description">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
-    <!-- ======================END FEATURES====================== -->
+    <!-- ======================END FEATURES======================= -->
 
     <!-- ======================WORK ACTIVITY====================== -->
-    <section class="work-activity">
-      <h2 class="work-section-title">Чем мы занимаемся</h2>
-      <ul class="work-list list">
-        <li>
-          <img class="img-item" src="./images/box_1.jpg" width="370" height="294" alt="фото_планирование" />
-        </li>
-        <li>
-          <img class="img-item" src="./images/box_2.jpg" width="370" height="294" alt="фото_разработки" />
-        </li>
-        <li>
-          <img class="img-item" src="./images/box_3.jpg" width="370" height="294" alt="фото_выбор_цвета" />
-        </li>
-      </ul>
+    <section class=" container-work-activity">
+      <div class="container">
+        <h2 class="work-section-title">Чем мы занимаемся</h2>
+        <ul class="work-list list">
+          <li>
+            <img class="img-item" src="./images/box_1.jpg" width="370" height="294" alt="фото_планирование" />
+          </li>
+          <li>
+            <img class="img-item" src="./images/box_2.jpg" width="370" height="294" alt="фото_разработки" />
+          </li>
+          <li>
+            <img class="img-item" src="./images/box_3.jpg" width="370" height="294" alt="фото_выбор_цвета" />
+          </li>
+        </ul>
+      </div>
     </section>
     <!-- ======================END WORK SECTION====================== -->
 
     <!-- ======================TEAM SECTION====================== -->
     <section class="team-section">
-      <div class="team-position">
+      <div class="container">
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list list">
           <li class="team-item">
             <img class="team-foto" src="./images/img_4.jpg" width="270" alt="фото_Дизайнера" />
-            <h3 class="title-command-description">Игорь Демьяненко</h3>
-            <p class="command-description" lang="en">Product Desinger</p>
+            <div class="text-item">
+                <h3 class="title-command-description">Игорь Демьяненко</h3>
+                <p class="command-description" lang="en">Product Desinger</p>
+            </div>
           </li>
           <li class="team-item">
             <img class="team-foto" src="./images/img_3.jpg" width="270" alt="фото_Фронтенд_разработчика" />
-            <h3 class="title-command-description">Ольга Репина</h3>
-            <p lang="en" class="command-description">Frontend Developer</p>
+            <div class="text-item">
+                <h3 class="title-command-description">Ольга Репина</h3>
+                <p lang="en" class="command-description">Frontend Developer</p>
+            </div>
           </li>
           <li class="team-item">
             <img class="team-foto" src="./images/img_2.jpg" width="270" alt="фото_Маркетолога" />
-            <h3 class="title-command-description">Николай Тарасов</h3>
-            <p lang="en" class="command-description">Marketing</p>
+            <div class="text-item">
+                <h3 class="title-command-description">Николай Тарасов</h3>
+                <p lang="en" class="command-description">Marketing</p>
+            </div>
           </li>
           <li class="team-item">
             <img class="team-foto" src="./images/img_1.jpg" width="270" alt="фото_разработчика_дизайна_интерфейса" />
-            <h3 class="title-command-description">Михаил Ермаков</h3>
-            <p lang="en" class="command-description">UI Designer</p>
+            <div class="text-item">
+              <h3 class="title-command-description">Михаил Ермаков</h3>
+              <p lang="en" class="command-description">UI Designer</p>
+            </div>
           </li>
         </ul>
       </div>
