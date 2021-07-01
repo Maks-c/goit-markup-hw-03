@@ -142,8 +142,11 @@ img {
   fill: var(--primary-text-color);
 }
 
-.icon-item:hover,
-.icon-item:focus {
+.contact-link:hover .icon-item {
+  fill: var(--accent-color);
+}
+
+.contact-link:focus .icon-item {
   fill: var(--accent-color);
 }
 
@@ -164,16 +167,25 @@ img {
   padding-bottom: 60px;
 }
 
-.footer-section {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .footer-list .footer-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-set {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-list-icon {
+  display: flex;
+  width: 206px;
+}
+
+.footer-icon-inst {
+  display: block;
+  width: 44px;
+  height: 44px;
 }
 
 .logo-footer {
@@ -206,6 +218,11 @@ img {
   color: #ffffff;
   margin-bottom: 9px;
 }
+
+.footer-section {
+  display: flex;
+}
+
 /* ======================END FOOTER====================== */
 
 /* main html */
@@ -281,7 +298,9 @@ img {
 }
 
 .features-item {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -291,10 +310,10 @@ img {
 .icon-antenna {
   width: 70px;
   height: 70px;
-  margin-top: 25px;
+  /* margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 102px;
-  margin-right: 102px;
+  margin-right: 102px; */
 }
 
 .features-title {
@@ -389,17 +408,36 @@ img {
 .team-list .team-item:not(:last-child) {
   margin-right: 30px;
 }
+
 .text-item {
-  padding: 30px 45px;
+  margin: 30px 30px;
+}
+
+.icon-set {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 30px;
 }
 
 .link-icon-inst {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
+  background-color: #fff;
+  fill: #afb1b8;
+  border-radius: 50%;
 }
 
-/* ======================END TEAM SECTION */
+.link-icon-inst:hover,
+.link-icon-inst:focus {
+  background-color: var(--accent-color);
+  fill: white;
+}
+
+/* ======================END TEAM SECTION===================== */
 
 /* portfolio */
 
